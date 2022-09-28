@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+        <ol class="stepper">
+            <div class="number done">1</div><li class="stepperItem done">Cabin</li><div class="done"></div>
+            <div class="number active">2</div><li class="stepperItem active">Meals</li><div class="line"></div>
+            <div class="number">3</div><li class="stepperItem">Upgrades</li><div class="line"></div>
+            <div class="number">4</div><li class="stepperItem">Payment</li>
+        </ol>
+
+    <h1>Meal Preferences</h1>
+    <p>Your flight comes with breakfast, lunch, and dinner. Please make your selections below.<br>Changes to your order can be made up to 48hrs before your flight.</p>
+<div class="form">
+    <form class="food">
+        <label for="breakf">Breakfast</label>
+        <select name="breakfast" id="breakf">
+            <option value="op1">Sausage Egg Scramble Bowl</option>
+        </select>
+
+        <label for="lunch">Lunch</label>
+        <select name="lunch" id="lunch">
+            <option value="op2">Club Sandwich Meal</option>
+        </select>
+
+        <label for="dinner">Dinner</label>
+        <select name="dinner" id="dinner">
+            <option value="op3">Wagyu Beef Sliders Meal</option>
+        </select>
+    </form>
+
+    <form class="drinks">
+        <label for="drink">Drink</label>
+        <select name="drink" id="drink">
+            <option value="op1">Coffee</option>
+        </select>
+
+        <label for="drink">Drink</label>
+        <select name="drink" id="drink">
+            <option value="op2">Cranberry Juice</option>
+        </select>
+
+        <label for="drink">Drink</label>
+        <select name="drink" id="drink">
+            <option value="op3">Red Wine</option>
+        </select>
+    </form>
+</div>
+        <input type="checkbox" id="dessert"><label for="dessert">I'd like dessert, too!</label>
+    
+    <section class="navBtns">
+        <button>Back</button>
+        <button class="continue">Continue</button>
+    </section>
+</body>
+</html>
